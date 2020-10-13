@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Profile</title>
+
+    <link rel="shortcut icon" href="images/user-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/Bootstrap-css.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/time.js"></script> 
+
+</head>
+
+<body onload=display_ct();>
+    <!--Top-->
+    <div class="top" id="top">
+        <nav class="navbar">
+            <!--Time-->
+            <div id='time'></div>
+            <div class="navbar-brand ">
+                <a href="#top " class="nav-link"> Weclome to Demo Profile</a>
+            </div>
+
+            <!--Menubar-->
+            <div> 
+                <b>
+                    <ul class="nav ">
+                        <li class="nav-item ">
+                            <a href="#about " class="nav-link ">ABOUT</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#skills " class="nav-link ">SKILLS</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#portfolio " class="nav-link ">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#experience " class="nav-link "> EXPERIENCE</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#study " class="nav-link "> EDUCATION</a>
+                        </li>
+                        <li class="nav-item " class="nav-link ">
+                            <a href="#contact" class="nav-link ">CONTACT</a>
+                        </li>
+                    </ul>
+                </b>
+            </div>
+        </nav>
+
+        
+        <!--Profile Picture-->
+        <div class="profile-pic ">
+            <img src="images/user-icon.png " alt="Demo profile">
+        </div>
+
+        <div class="summary">
+            <h1>Demo</h1>
+            <h4>Profession</h4>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="#contact" class="btn btn-outline-primary">
+                Hire Me
+            </a>
+            <a href="resume.html" class="btn btn-outline-primary">
+              Download Resume
+            </a>
+        </div>
+    </div>
+
+    <!--social link-->
+    <div class="social-link" style="text-align: center;">
+        <a href="mailto:#" target="_blank " onclick="window.alert('My email address is .................... Do you want to email me?')"><img src="images/envelope-regular.svg " alt="Email"></a>
+        
+        <a href="tel:#" target="_blank" onclick="window.alert('My Phone number is .................... Do you want to call me?') "><img src="images/PC.png " alt="phone-call-icon "></a>
+
+        <a href="#" target="_blank "><img src="images/facebook-square-brands.svg " alt="Facebook "></a>
+
+        <a href="#" target="_blank "><img src="images/linkedin-brands.svg " alt="Linkedin "></a>
+
+        <a href="#" target="_blank "><img src="images/github-square-brands.svg " alt="github "></a>
+    </div>
+
+    <!--about section-->
+    <div class="about" id="about">
+        <div class="descrip">
+            <h2>About Me</h2>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ullam voluptate dolorum quia. Cumque mollitia iure libero suscipit enim, nemo repellat ullam, temporibus debitis, ipsam ipsa possimus sit non tempore. 
+            </p>
+        </div>
+        <div class="personal">
+            <h2>Basic Information</h2>
+            <br>
+            <p>
+                <b>Phone: </b> +880171043675 <br>
+                <b>Email:</b> Demo@gmail.com  <br>
+                <b>Address: </b> Jamalpur  <br>
+                <b>Language:</b> English, Bangla <br>
+            </p>
+        </div>
+    </div>
+
+    <!--Professional Skills-->
+    <h1 id="skills" style="text-align: center;padding: 15px 0 5px 0;">Professional Skills</h1>
+
+    <div class="skills">
+        <div class="skill-1"> 
+            <h2 style="text-align: center;">Web Development </h2>
+            <br>
+            <p>HTML5 <span class="progress-value" style="float: right;">90%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 90%"></div>
+            </div>
+            <br>
+            <p>CSS3 <span class="progress-value" style="float: right;">85%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 85%"></div>
+            </div>
+            <br>
+            <p>Bootstrap-css <span class="progress-value" style="float: right;">70%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 70%"></div>
+            </div>
+            <br>
+            <p>PSD to HTML<span class="progress-value" style="float: right;">70%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 70%"></div>
+            </div>
+            <br>
+            <p>JavaScript <span class="progress-value" style="float: right;">25%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 25%"></div>
+            </div>
+            <br>
+            <p>J-Query <span class="progress-value" style="float: right;">30%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 30%"></div>
+            </div>
+            <br>
+            <p>PHP <span class="progress-value" style="float: right;">35%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 35%"></div>
+            </div>
+            <br>
+            <p>MySql Database<span class="progress-value" style="float: right;">35%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 35%"></div>
+            </div>
+            <br>
+            <p>Wordpress Theme Customization <span class="progress-value" style="float: right;">50%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 50%"></div>
+            </div>
+        </div>
+
+        <div class="skill-2">
+            <h2 style="text-align: center;">Others </h2>
+            <br>
+            <p>C Programming <span class="progress-value" style="float: right;">65%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 65%"></div>
+            </div>
+            <br>
+            <p>Java Programming <span class="progress-value" style="float: right;">30%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 30%"></div>
+            </div>
+            <br>
+            <p>Python Programming<span class="progress-value" style="float: right;">10%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 10%"></div>
+            </div>
+            <br>
+            <p>Object Oriented Programming<span class="progress-value" style="float: right;">40%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 40%"></div>
+            </div>
+            <br>
+            <p>Kali Linux OS<span class="progress-value" style="float: right;">40%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 40%"></div>
+            </div>
+            <br>
+            <p>Ubuntu OS<span class="progress-value" style="float: right;">50%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 50%"></div>
+            </div>
+            <br>
+            <p>Windows OS<span class="progress-value" style="float: right;">70%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 70%"></div>
+            </div>
+            <br>       
+            <p>Leadership<span class="progress-value" style="float: right;">50%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 50%"></div>
+            </div>
+            <br>
+            <p>Teamwork<span class="progress-value" style="float: right;">70%</span></p>
+            <div class="progress">
+                <div class="progress-bar  progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 70%"></div>
+            </div>            
+        </div>
+        </div>
+
+    <!--Portfolio-->
+    <h1 id="portfolio" style="text-align: center;padding: 15px 0 5px 0;">Portfolio</h1>
+    <div class="portfolio">
+        <div class="port1">
+            <div class="p1 p1_bg">
+                <div class="text">
+                    <h1> Demo-1</h1><br>
+                    <a href="#" target="_blank" class="btn btn-success"> View</a>
+                </div>
+            </div>
+            <br>
+            <div class="p3 p3_bg">
+                <div class="text">
+                    <h1> Demo-3</h1><br>
+                    <a href="#" target="_blank" class="btn btn-success"> View</a>
+                </div>
+            </div>
+        </div>
+        <div class="port2">
+            <div class="p2 p2_bg">
+                <div class="text">
+                    <h1> Demo-2 </h1><br>
+                    <a href="#" class="btn btn-success"> View</a>
+                </div>
+            </div>
+            <br>
+            <div class="p4 p4_bg">
+                <div class="text">
+                    <h1> Demo-4 </h1><br>
+                    <a href="#" class="btn btn-success"> View</a>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; padding: 2%;">
+            <a href="#" class="btn btn-success" target="_blank">
+                See More
+            </a>
+        </div>
+    </div>
+
+    <!--work Experience-->
+    <h1 id="experience" style="text-align: center;padding: 15px 0 5px 0;">Work Experience</h1>
+
+    <div class="experience">
+        <div class="ex">
+            <div class="ex-g">
+                <h5>Date-Month-Year</h5>
+                <br>
+                <h4>Profession-1</h4>
+            </div>
+            <div class="ex-w">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem asperiores, in voluptates, ratione natus, repellat saepe soluta a dignissimos nostrum nam molestiae placeat consequatur suscipit? Fugit itaque dolorum quos repellendus?
+            </div>
+        </div>
+
+        <div class="ex" style="margin-bottom: 0;">
+            <div class="ex-g">
+                <h5>Date-Month-Year</h5>
+                <br>
+                <h4>Profession-2</h4>
+            </div>
+            <div class="ex-w">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae ab assumenda sit eveniet nulla obcaecati veniam facere illo, consequatur velit hic magnam provident nostrum eligendi vel ullam, pariatur voluptate.
+            </div>
+        </div>
+    </div>
+
+    <!--Educational Experience-->
+    <h1 style="text-align: center;padding: 15px 0 5px 0;">Educational Background</h1>
+
+    <div class="experience" id="study">
+        <div class="ex">
+            <div class="ex-g">
+                <h4>Date-Month-Year</h4>
+                <br>
+                <h2>B.Sc.</h2>
+                <br>
+            </div>
+            <div class="ex-w">
+                <h2>Institute Name</h2>
+                <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo inventore tempora, minus perferendis labore possimus corrupti veniam impedit neque, itaque blanditiis ab, at provident quam ducimus! Odio labore debitis sed.
+            </div>
+        </div>
+
+        <div class="ex">
+            <div class="ex-g">
+                <h4>Date-Month-Year</h4>
+                <br>
+                <h2>Higher Secondary</h2>
+                <br>
+            </div>
+            <div class="ex-w">
+                <h2>Institute Name</h2>
+                <br> 
+                I Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus deleniti voluptatem quos possimus! Aliquid explicabo quam natus sint recusandae debitis laboriosam eveniet consectetur veritatis? Natus obcaecati placeat doloribus. Ea, perferendis!
+            </div>
+        </div>
+
+        <div class="ex" style="margin-bottom: 0;">
+            <div class="ex-g">
+                <h4>Date-Month-Year</h4>
+                <br>
+                <h2>High School</h2>
+                <br>
+            </div>
+            <div class="ex-w">
+                <h3>Institute Name</h3>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, sunt obcaecati eveniet magni rem magnam ipsum animi est incidunt nam? Nisi totam deserunt obcaecati tempore fugit consectetur eligendi accusamus iste?
+            </div>
+        </div>
+    </div>
+
+    <!--contact-->
+    <h1 id="contact" style="text-align: center;padding: 15px 0 5px 0;">Contacts</h1>
+
+    <div class="contact">
+        <div class="contact-box">
+            <h2 style="text-align: center;">Contact Me</h2>
+            <div class="contact-form">
+
+                <label for="head"> Feel Free to Contact me</label>
+                <form action="#top">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Please Enter Your Email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea type="textarea" class="form-control" id="Message" placeholder="Enter Your Message">Type Your Message Here
+                    </textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success" onclick="window.alert('Sorry, form is not working at this moment.. Please contact with me via email or phone number. ')">SEND</button>
+                </form>
+            </div>
+
+            <div class="address">
+                <b>Address</b>
+                <p>Jamalpur</p><br>
+                <b>Phone</b><br>
+                <a href="tel:+8801702837373">+8801702837373 </a><br><br>
+                <b>Email</b><br>
+                <a href="mailto:demo@gmail.com" target="_blank">Demo@gmail.com</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--footer-->
+    <div class="footer1" >
+        <div class="devinfo">
+            <h4 style="text-decoration: underline">Developer Information</h4>
+            <div class="social-link" style="margin: .35%;">
+                <a href="https://www.facebook.com/Muiduzzaman.Mahim/" target="_blank"><img src="images/facebook-square-brands.svg" alt="facebook"></a>
+                <a href="https://github.com/muiduzzaman-mahim"><img src="images/github-square-brands.svg" alt="github" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/mmzm96/" target="_blank"><img src="images/linkedin-brands.svg" alt="Linkedin"></a>
+          </div>
+        <a href="https://muiduzzaman-mahim.github.io/" target="_blank"><h4>Muiduzzaman Mahim</h4></a>
+        <small>Web Developer</small>
+        </div>
+        <div class="home">
+            <a href="#"><img src="images/home-solid.svg" alt="top-back"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
